@@ -1,0 +1,307 @@
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('IXA', 'filologie');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('IXB', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('IXC', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('IXD', 'stiinte');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XA', 'filologie');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XB', 'mate-info ');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XC', 'mate-info ');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XD', 'stiinte');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIA', 'filologie');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIB', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIC', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XID', 'stiinte');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIIA', 'filologie');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIIB', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIIC', 'mate-info');
+INSERT INTO `catalog_electronic`.`clasa` (`id_clasa`, `profil`) VALUES ('XIID', 'stiinte');
+
+
+
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('1', 'Stelea', 'Bogdan', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('2', 'Costache', 'Theodor', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('3', 'Ghenea', 'Dragos', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('4', 'Ciobanu', 'Iris', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('5', 'Viezure', 'Bogdan', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('6', 'Buhnici', 'Alexandra', 'IXA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('7', 'Cristian', 'Tudor', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('8', 'Constantin', 'Bogdan', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('9', 'Marean', 'Valentin', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('10', 'Gica', 'Hagi', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('11', 'Ruican', 'Denis', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('12', 'Trepadus', 'Ana', 'IXB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('13', 'Tanasescu', 'Bianca', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('14', 'Popescu ', 'Andreea', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('15', 'Neaca', 'Andrei', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('16', 'Stefan', 'Mihai', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('17', 'Tomita', 'Dorian', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('18', 'Filimon ', 'Radu', 'IXC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('19', 'Maria', 'Ioana', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('20', 'Dunga ', 'Dan', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('21', 'Dugasu', 'Alexandru', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('22', 'Ceausu', 'Andrei', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('23', 'Dana', 'Budeanu', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('24', 'Ciocanes', 'Andrei', 'IXD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('25', 'Alberto', 'Mihaita', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('26', 'Zidaru', 'Geanina', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('27', 'Zidaru', 'Laurentiu', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('28', 'Popa', 'Cosmin', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('29', 'Radoi', 'Florinel', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('30', 'Dobrica', 'Dragos', 'XA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('31', 'Craciun', 'Marioara', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('32', 'Cristache', 'Teodor', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('33', 'Stefan', 'Denis', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('34', 'Stefanescu', 'Marian', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('35', 'Oporta', 'Antonio', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('36', 'Ivan', 'Andrei', 'XB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('37', 'Mitica', 'Alexandru', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('38', 'Mocanu', 'Daniel', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('39', 'Remus', 'Ionut', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('40', 'Nicolae', 'Albert', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('41', 'Magdalena', 'Veronica', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('42', 'Popescu', 'Greta', 'XC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('43', 'Tortolea', 'Mioara', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('44', 'Georgescu', 'Alexandru', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('45', 'Marian', 'Ion', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('46', 'Gege', 'Cristian', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('47', 'Vasile', 'Elena', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('48', 'Aron', 'Geta', 'XD');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('49', 'Dumitrescu', 'Mihnea', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('50', 'Varzaru', 'Mihnea', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('51', 'Voiculescu', 'Catalina', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('52', 'Toto', 'Geo', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('53', 'Grecu', 'Vasile', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('54', 'Stragalr', 'Moet', 'XIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('55', 'Gica', 'Vasile', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('56', 'Popa', 'George', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('57', 'Ligma', 'Alexandru', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('58', 'Purcaru', 'Stefan', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('59', 'Rudaru', 'Stefania', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('60', 'Mugurel', 'Ionel', 'XIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('61', 'Mihailescu', 'Vlad', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('62', 'Toma', 'Gelu', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('63', 'Costea', 'Marian', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('64', 'Ciobanu', 'Vasile', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('65', 'Velea', 'Ionut', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('66', 'Popa', 'Cosmin', 'XIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('67', 'Andrei', 'Gabriel', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('68', 'Popa', 'Gabriel', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('69', 'Boaca', 'Emil', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('70', 'Guta', 'Razvan', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('71', 'Badan', 'Paul', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('72', 'Draghici', 'Oana', 'XID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('73', 'Chiurtu ', 'Cristian', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('74', 'Minculeasa', 'Radu', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('75', 'Stefanescu', 'Alex', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('76', 'Marcu', 'Andrei', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('77', 'Caprioara', 'Ionut', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('78', 'Turbatu', 'Alexandra', 'XIIA');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('79', 'Mic', 'Anca', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('80', 'Cercel', 'Tudor', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('81', 'Salom', 'Armand', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('82', 'Iustin', 'Mihai', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('83', 'Berindee', 'Maria', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('84', 'Andriescu', 'Ioana', 'XIIB');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('85', 'Usurelu', 'Mioara', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('86', 'Shelaru', 'Tomita', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('87', 'Virgil', 'Iantu', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('88', 'Oprea', 'Stefan', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('89', 'Popa', 'Cosmin', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('90', 'Andronie ', 'Bertha', 'XIIC');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('91', 'Moraru', 'George', 'XIID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('92', 'Castana', 'Ion', 'XIID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('93', 'Topor', 'Marius', 'XIID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('94', 'Sfetcu', 'Irina', 'XIID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('95', 'Nita', 'Eduard', 'XIID');
+INSERT INTO `catalog_electronic`.`elevi` (`id_elev`, `nume`, `prenume`, `clasa_id_clasa`) VALUES ('96', 'Petrut', 'Bratu', 'XIID');
+
+
+
+
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`, `descriere`) VALUES ('mate1', 'Analiza Matematica');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`, `descriere`) VALUES ('mate2', 'Algebra');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('romana');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('biologie');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`, `descriere`) VALUES ('fizica1', 'Mecanica');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`, `descriere`) VALUES ('fizica2', 'Electricitate');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('geografie');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('psihologie');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('engleza');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('latina');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('istorie');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('sport');
+INSERT INTO `catalog_electronic`.`materii` (`id_materie`) VALUES ('economie');
+
+
+
+
+
+
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('1', 'Mic', 'Danut', 'XIID', 'mate1');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('2', 'Chircea', 'Alex', 'XC', 'mate2');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('3', 'Brandusoiu', 'Elena', 'IXA', 'sport');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('4', 'Mic', 'Anca', 'XIB', 'romana');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('5', 'Balutoiu', 'Valentin', 'XIIA', 'istorie');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('6', 'Balutoiu', 'Elena', 'XD', 'economie');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('7', 'Vant', 'Marian', 'XIIB', 'geografie');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('8', 'Ionescu', 'Liviu', 'XIIC', 'fizica2');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('9', 'Florian', 'Gabriel', 'XIID', 'fizica1');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('10', 'Dumitrescu', 'Floarea', 'IXB', 'psihologie');
+INSERT INTO `catalog_electronic`.`profesori` (`id_profesor`, `nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('11', 'Raducanu', 'Ingrid', 'XIA', 'engleza');
+INSERT INTO `catalog_electronic`.`profesori` (`nume`, `prenume`, `clasa_id_clasa`, `Materii_id_materie`) VALUES ('Procop', 'Raisa', 'XIIA', 'latina');
+
+
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('1', '9966968541903', 'Lalele 34', '2465551697', '1');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('2', '6687477655245', 'Crizanteme 22', '4071787828', '2');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('3', '8129007944111', 'Popeci 11', '5721683590', '3');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('4', '3034157201878', 'Trandafir 12', '9947530392', '4');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('5', '0593123192698', 'Ion Gicu 11', '7641787583', '5');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('6', '8326624965364', 'Iorga 25', '3330253903', '6');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('7', '9779458428374', 'Popeci 23', '1146855945', '7');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('8', '8542006254915', 'Trandafir 112', '4860317659', '8');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('9', '9943585752940', 'Groza 87', '1695656966', '9');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('10', '3381275095672', 'Crinilor 123', '6122179066', '10');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('11', '4549752197467', 'Grigore Plesoianu 11', '6907103464', '11');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('12', '1427783439887', 'Iorga 120', '6711025075', '12');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('13', '9054040824544', 'Popeci 88', '6968795277', '13');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('14', '7198749864984', 'Invierii 65', '5664588692', '14');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('15', '1134802054745', 'Invierii 17', '5351862906', '15');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('16', '2474225575003', '16');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('17', '0170119698330', '17');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('18', '9673120641467', '18');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('19', '1219042420764', '19');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('20', '3720675137830', '20');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('21', '6203971839896', '21');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('22', '4634403457573', '22');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('23', '8728062721794', '23');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('24', '8555295034561', '24');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('25', '7789892636357', '25');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('26', '9251219645486', '26');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('27', '5920902427813', '27');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('28', '2629665753711', '28');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('29', '0174360496506', '29');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('30', '9644155695421', '30');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `Elevi_id_elev`) VALUES ('31', '4040031417912', '31');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('32', '1568313399049', 'Lacul Tei 21', '4447871531', '32');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('33', '0891883956835', 'Lacul Tei 43', '7697964685', '33');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('34', '2868598041639', 'Lacul Tei 54', '4874379230', '34');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('35', '9130067565801', ' Marasesti 89', '1212752125', '35');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('36', '7068322392896', ' Marasesti 99', '5326125620', '36');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('37', '8510243378948', ' Marasesti 101', '0727672128', '37');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('38', '3649538159796', ' Marasesti 23', '9297869194', '38');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('39', '5494030796372', ' Marasesti 11', '5483627433', '39');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('40', '2876580078566', 'Varsovia 11', '3890398663', '40');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('41', '2963374361477', 'Varsovia 23', '5455094551', '41');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('42', '4541946549261', 'Varsovia 54', '3746406653', '42');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('43', '0897414064039', 'Vaselor 12', '0622676007', '43');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('44', '5906204033047', 'Vaselor 77', '0161653452', '44');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('45', '6820772174036', 'Vaselor  32', '1889698718', '45');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('46', '1300816928643', 'Vegetatiei 12', '2408286225', '46');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('47', '1112136556927', 'Vegetatie 122', '1347631552', '47');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('48', '8040913256087', 'Vegetatie 65', '1970209542', '48');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('49', '1598768262269', 'Verii 67', '7554165176', '49');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('50', '9952545254448', 'Verii 213', '0145526194', '50');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('51', '1591437294300', 'Verii 234', '7618487672', '51');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('52', '2767703904394', 'Viforului 14', '2444652128', '52');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('53', '8789290642355', 'Viforului 23', '6019657755', '53');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('54', '6499302078900', 'Viforulu 233', '4479907898', '54');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('55', '1138359016572', 'Viitorului 14', '4733801852', '55');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('56', '3599203741615', 'Viitorului 12', '3809690714', '56');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('57', '2081558870201', 'Viitorului 54', '2382969321', '57');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('58', '1199139132836', 'Viitorului 234', '3968602555', '58');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('59', '8834455438145', 'Viitorului  11', '6456534373', '59');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('60', '8900721060198', 'Romului 12', '3621381050', '60');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('61', '9038833510560', 'Romului 54', '2980371577', '61');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('62', '2342712272276', ' Romului 234', '2352676227', '62');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('63', '5691036299462', ' Scoicilor 32', '9288450251', '63');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('64', '3055208214000', 'Scoicilor 27', '8373070017', '64');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('65', '5051020769205', 'Scoicilor 90', '3929197461', '65');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('66', '6481164984014', 'Stelelor 12', '0165331407', '66');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('67', '7193436374341', 'Stelelor 126', '2134326101', '67');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('68', '8198349364274', 'Stelelor 89', '7357294002', '68');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('69', '2186951187763', 'Stelelor  55', '6399929287', '69');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('70', '6982281644820', 'Cartiilor 76', '1415372961', '70');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('71', '0506707468242', 'Cartiilor 23', '3002607329', '71');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('72', '2384821111370', 'Cartiilor 43', '0558320380', '72');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('73', '3741486958957', 'Cartiilor 49', '8904610259', '73');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('74', '4703591695577', 'Lacul Tei 12', '4611953330', '74');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('75', '9800704092563', 'Lacul Tei 77', '7255216321', '75');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('76', '1581779997946', 'Lacul Tei 90', '1243294238', '76');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('77', '0567677978896', 'Luptatorilor 1', '1339752614', '77');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('78', '1300817452063', 'Luptatorilor 22', '1588137664', '78');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('79', '8606027738008', 'Luptatorilor 83', '5731293835', '79');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('80', '0497014119584', 'Metalurgiei 12', '5803289025', '80');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('81', '2952937110600', 'Metalurgiei 65', '8710410426', '81');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('82', '1458418753888', 'Metalurgiei 98', '7316422530', '82');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('83', '5417402917122', 'Victoriei 1', '5667345013', '83');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('84', '6443488075569', 'Victoriei 15', '7766897677', '84');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('85', '6346943987621', 'Victoriei 77', '0133550612', '85');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('86', '8862877950566', 'Argatului 11', '0311910761', '86');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('87', '6027593320185', 'Argatului 22', '3037622586', '87');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('88', '3342553450981', 'Argatului 57', '3900147361', '88');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('89', '0795163882331', 'Aries 12', '5220553813', '89');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('90', '9259045218444', 'Aries  34', '2797649555', '90');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('91', '4907499997516', 'Aries 65', '6728274565', '91');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('92', '8458909658322', 'Gemenilor 11', '9923715943', '92');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('93', '8094636125197', 'Gemenilor 123', '8431572995', '93');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('94', '6712753401420', 'Gemenilor 665', '3013658880', '94');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('95', '1396431025013', 'Clopotului 12', '0136987499', '95');
+INSERT INTO `catalog_electronic`.`date personale` (`id_data_personala`, `cnp`, `adresa`, `telefon`, `Elevi_id_elev`) VALUES ('96', '3293234536136', 'Clopotului 123', '1683288638', '96');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Adjud 23', `telefon` = '8514749831' WHERE (`id_data_personala` = '16') and (`Elevi_id_elev` = '16');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Agarbiceanu 1', `telefon` = '8900990430' WHERE (`id_data_personala` = '17') and (`Elevi_id_elev` = '17');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Agigea 18', `telefon` = '6647409019' WHERE (`id_data_personala` = '18') and (`Elevi_id_elev` = '18');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Burebista 99', `telefon` = '5535437577' WHERE (`id_data_personala` = '19') and (`Elevi_id_elev` = '19');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Camil Ressu 11', `telefon` = '9622923451' WHERE (`id_data_personala` = '20') and (`Elevi_id_elev` = '20');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Camil Ressu 45', `telefon` = '9535858833' WHERE (`id_data_personala` = '21') and (`Elevi_id_elev` = '21');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Camil Ressu 68', `telefon` = '7405376654' WHERE (`id_data_personala` = '22') and (`Elevi_id_elev` = '22');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Constructorilor 12', `telefon` = '9679504139' WHERE (`id_data_personala` = '23') and (`Elevi_id_elev` = '23');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Constructorilo 23', `telefon` = '0953915143' WHERE (`id_data_personala` = '24') and (`Elevi_id_elev` = '24');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Constructorilor 122', `telefon` = '7082599561' WHERE (`id_data_personala` = '25') and (`Elevi_id_elev` = '25');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Dacia 22', `telefon` = '0377966475' WHERE (`id_data_personala` = '26') and (`Elevi_id_elev` = '26');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Dacia 33', `telefon` = '7706587680' WHERE (`id_data_personala` = '27') and (`Elevi_id_elev` = '27');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Dacia 60', `telefon` = '1172485468' WHERE (`id_data_personala` = '28') and (`Elevi_id_elev` = '28');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Hristov 12', `telefon` = '9858053925' WHERE (`id_data_personala` = '29') and (`Elevi_id_elev` = '29');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Hristov 21', `telefon` = '5334686011' WHERE (`id_data_personala` = '30') and (`Elevi_id_elev` = '30');
+UPDATE `catalog_electronic`.`date personale` SET `adresa` = 'Hristov 465', `telefon` = '4495655511' WHERE (`id_data_personala` = '31') and (`Elevi_id_elev` = '31');
+
+
+
+
+
+ALTER TABLE `catalog_electronic`.`date personale` 
+DROP COLUMN `data_nasterii`;
+
+
+
+ALTER TABLE `catalog_electronic`.`date personale` 
+RENAME TO  `catalog_electronic`.`date_personale` ;
+
+
+ALTER TABLE `catalog_electronic`.`medii` 
+ADD COLUMN `nota` REAL NULL AFTER `Elevi_id_elev`;
+
+
+
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('7', 'mate1', '30', '7');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('8', 'romana', '30', '8');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('9', 'fizica1', '30', '8.2');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('10', 'fizica2', '30', '9');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('11', 'biologie', '30', '5.8');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('12', 'istorie', '30', '7');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('13', 'mate1', '18', '9');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('14', 'mate2', '18', '7');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('15', 'romana', '18', '6');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('16', 'fizica1', '18', '5');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('17', 'fizica2', '18', '8');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('18', 'biologie', '18', '10');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('19', 'romana', '75', '10');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('20', 'geografie', '75', '7');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('21', 'istorie', '75', '6.2');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('22', 'sport', '75', '9');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('23', 'psihologie', '75', '7');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('24', 'mate1', '91', '7.3');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('25', 'mate2', '91', '7.5');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('26', 'fizica1', '91', '9');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('27', 'fizica2', '91', '9.3');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('28', 'romana', '91', '8');
+INSERT INTO `catalog_electronic`.`medii` (`id_nota`, `Materii_id_materie`, `Elevi_id_elev`, `nota`) VALUES ('29', 'biologie', '91', '9');
+

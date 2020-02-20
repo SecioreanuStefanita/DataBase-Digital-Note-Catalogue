@@ -1,0 +1,125 @@
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema Catalog_Electronic
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema Catalog_Electronic
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `Catalog_Electronic` DEFAULT CHARACTER SET utf8 ;
+USE `Catalog_Electronic` ;
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`clasa`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`clasa` (
+  `id_clasa` VARCHAR(10) NOT NULL,
+  `profil` VARCHAR(20) NULL,
+  PRIMARY KEY (`id_clasa`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`Materii`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`Materii` (
+  `id_materie` VARCHAR(10) NOT NULL,
+  `descriere` VARCHAR(20) NULL,
+  PRIMARY KEY (`id_materie`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`profesori`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`profesori` (
+  `id_profesor` INT NOT NULL AUTO_INCREMENT,
+  `nume` VARCHAR(20) NULL,
+  `prenume` VARCHAR(20) NULL,
+  `clasa_id_clasa` VARCHAR(10) NOT NULL,
+  `Materii_id_materie` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`id_profesor`),
+  INDEX `fk_profesori_clasa_idx` (`clasa_id_clasa` ASC) VISIBLE,
+  INDEX `fk_profesori_Materii1_idx` (`Materii_id_materie` ASC) VISIBLE,
+  CONSTRAINT `fk_profesori_clasa`
+    FOREIGN KEY (`clasa_id_clasa`)
+    REFERENCES `Catalog_Electronic`.`clasa` (`id_clasa`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `fk_profesori_Materii1`
+    FOREIGN KEY (`Materii_id_materie`)
+    REFERENCES `Catalog_Electronic`.`Materii` (`id_materie`)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+
+
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`Elevi`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`Elevi` (
+  `id_elev` INT NOT NULL AUTO_INCREMENT,
+  `nume` VARCHAR(20) NULL,
+  `prenume` VARCHAR(20) NULL,
+  `clasa_id_clasa` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`id_elev`),
+  INDEX `fk_Elevi_clasa1_idx` (`clasa_id_clasa` ASC) VISIBLE,
+  CONSTRAINT `fk_Elevi_clasa1`
+    FOREIGN KEY (`clasa_id_clasa`)
+    REFERENCES `Catalog_Electronic`.`clasa` (`id_clasa`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`Medii`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`Medii` (
+  `id_nota` REAL NOT NULL,
+  `Materii_id_materie` VARCHAR(10) NOT NULL,
+  `Elevi_id_elev` INT NOT NULL,
+  PRIMARY KEY (`id_nota`, `Elevi_id_elev`),
+  INDEX `fk_Medii_Materii1_idx` (`Materii_id_materie` ASC) VISIBLE,
+  INDEX `fk_Medii_Elevi1_idx` (`Elevi_id_elev` ASC) VISIBLE,
+  CONSTRAINT `fk_Medii_Materii1`
+    FOREIGN KEY (`Materii_id_materie`)
+    REFERENCES `Catalog_Electronic`.`Materii` (`id_materie`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Medii_Elevi1`
+    FOREIGN KEY (`Elevi_id_elev`)
+    REFERENCES `Catalog_Electronic`.`Elevi` (`id_elev`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `Catalog_Electronic`.`Date Personale`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `Catalog_Electronic`.`Date Personale` (
+  `id_data_personala` INT NOT NULL AUTO_INCREMENT,
+  `cnp` VARCHAR(13) NULL,
+  `adresa` VARCHAR(45) NULL,
+  `telefon` VARCHAR(12) NULL,
+  `data_nasterii` DATE NULL,
+  `Elevi_id_elev` INT NOT NULL,
+  PRIMARY KEY (`id_data_personala`, `Elevi_id_elev`),
+  INDEX `fk_Date Personale_Elevi1_idx` (`Elevi_id_elev` ASC) VISIBLE,
+  CONSTRAINT `fk_Date Personale_Elevi1`
+    FOREIGN KEY (`Elevi_id_elev`)
+    REFERENCES `Catalog_Electronic`.`Elevi` (`id_elev`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

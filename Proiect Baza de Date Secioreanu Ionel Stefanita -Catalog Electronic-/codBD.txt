@@ -1,0 +1,70 @@
+CREATE SCHEMA `catalog_electronic` ;
+
+CREATE TABLE `catalog_electronic`.`profesori` (
+  `id_profesor` INT NOT NULL AUTO_INCREMENT,
+  `nume` VARCHAR(20) NULL,
+  `prenume` VARCHAR(20) NULL,
+  `id_materie` VARCHAR(10) NULL,
+  `id_clasa` VARCHAR(10) NULL,
+  PRIMARY KEY (`id_profesor`));
+
+
+CREATE TABLE `catalog_electronic`.`clasa` (
+  `id_clasa` VARCHAR(10) NOT NULL,
+  `profil` VARCHAR(20) NULL,
+  PRIMARY KEY (`id_clasa`));
+
+
+CREATE TABLE `catalog_electronic`.`materii` (
+  `id_materie` VARCHAR(20) NOT NULL,
+  `descriere` VARCHAR(20) NULL,
+  PRIMARY KEY (`id_materie`));
+
+CREATE TABLE `catalog_electronic`.`medii` (
+  `id_materie` VARCHAR(20) NULL,
+  `id_elev` INT NULL,
+  `id_note` VARCHAR(10) NOT NULL,
+  PRIMARY KEY (`id_note`));
+
+CREATE TABLE `catalog_electronic`.`elevi` (
+  `id_elev` VARCHAR(20) NOT NULL,
+  `nume` VARCHAR(20) NULL,
+  `prenume` VARCHAR(20) NULL,
+  `id_clasa` VARCHAR(15) NULL,
+  PRIMARY KEY (`id_elev`));
+
+CREATE TABLE `catalog_electronic`.`date_personale` (
+  `id_date_personale` INT NOT NULL,
+  `id_elev` INT NULL,
+  `cnp` VARCHAR(13) NULL,
+  `adresa` VARCHAR(50) NULL,
+  `telefon` VARCHAR(13) NULL,
+  `data_nasterii` DATE NULL,
+  PRIMARY KEY (`id_date_personale`));
+
+ALTER TABLE `catalog_electronic`.`profesori` 
+ADD INDEX `id_materie_idx` (`id_materie` ASC) VISIBLE,
+ADD INDEX `id_clasa_idx` (`id_clasa` ASC) VISIBLE;
+;
+ALTER TABLE `catalog_electronic`.`profesori` 
+ADD CONSTRAINT `id_materie`
+  FOREIGN KEY (`id_materie`)
+  REFERENCES `catalog_electronic`.`materii` (`id_materie`)
+  ON DELETE CASCADE
+  ON UPDATE CASCADE,
+ADD CONSTRAINT `id_clasa`
+  FOREIGN KEY (`id_clasa`)
+  REFERENCES `catalog_electronic`.`clasa` (`id_clasa`)
+  ON DELETE CASCADE
+  ON UPDATE CASCADE;
+ALTER TABLE `catalog_electronic`.`elevi` 
+ADD INDEX `id_clasa_idx` (`id_clasa` ASC) VISIBLE;
+;
+ALTER TABLE `catalog_electronic`.`elevi` 
+ADD CONSTRAINT `id_clasa`
+  FOREIGN KEY (`id_clasa`)
+  REFERENCES `catalog_electronic`.`clasa` (`id_clasa`)
+  ON DELETE CASCADE
+  ON UPDATE CASCADE;
+
+
